@@ -5,6 +5,22 @@ function $$(selector, context = document) {
 }
 
 
+
+export function renderProjects(projects, containerElement, headingLevel = 'h2') {
+  containerElement.innerHTML = '';
+  for (let project of projects) {
+    const article = document.createElement('article');
+
+    article.innerHTML = `
+      <${headingLevel}>${project.title}</${headingLevel}>
+      <img src="${project.image}" alt="${project.title}">
+      <p>${project.description}</p>
+    `;
+
+    containerElement.appendChild(article);
+  }
+}
+
 const BASE_PATH =
     (location.hostname === "localhost" || location.hostname === "127.0.0.1")
       ? "/"
