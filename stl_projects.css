@@ -2,7 +2,7 @@
 
 .projects {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(6em, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 1em;
 }
 
@@ -24,4 +24,12 @@ h1 {
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.1;
   text-wrap: balance;
+}
+
+:root {
+  --color-accent: oklch(70% 0.2 350); /* 粉色 */
+}
+
+nav a:hover {
+  border-bottom: 0.4em solid var(--color-accent);
 }

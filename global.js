@@ -27,9 +27,9 @@ const BASE_PATH =
       : "https://mian0606.github.io/ds106_js/"; 
 
 let pages = [
-    { url: '', title: 'Mianzhi Hu: Personal site and portfolio' },
-    { url: 'projects/index.html', title: 'Mianzhi Hu: Projects' },
-    { url: 'contact/index.html', title: 'Mianzhi Hu: Contact' }
+    { url: '', title: 'Portfolio' },
+    { url: 'projects/index.html', title: 'Projects' },
+    { url: 'contact/index.html', title: 'Contact' }
   ];
 
 
