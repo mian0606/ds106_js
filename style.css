@@ -47,10 +47,11 @@ nav a:hover {
 }
 
 
-.color-scheme {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
+nav {
+  display: flex;
+  margin-bottom: 2em;
+  border-bottom: 1px solid oklch(80% 3% 200);
+  padding-right: 6em;
 }
 
 
