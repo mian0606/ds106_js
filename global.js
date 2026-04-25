@@ -27,9 +27,9 @@ const BASE_PATH =
       : "https://mian0606.github.io/ds106_js/"; 
 
 let pages = [
-    { url: '', title: 'Portfolio' },
-    { url: 'projects/index.html', title: 'Projects' },
-    { url: 'contact/index.html', title: 'Contact' }
+    { url: '/', title: 'Portfolio' },
+    { url: '/projects/index.html', title: 'Projects' },
+    { url: '/contact/index.html', title: 'Contact' }
   ];
 
 
