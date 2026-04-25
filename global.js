@@ -43,17 +43,17 @@ export async function fetchGitHubData(username) {
 }
 
 
+
 const BASE_PATH =
-    (location.hostname === "localhost" || location.hostname === "127.0.0.1")
-      ? "/"
-      : "https://mian0606.github.io/ds106_js/"; 
+  location.hostname === "localhost" || location.hostname === "127.0.0.1"
+    ? "/"
+    : "/ds106_js/";
 
 let pages = [
-    { url: '/', title: 'Portfolio' },
-    { url: '/projects/index.html', title: 'Projects' },
-    { url: '/contact/index.html', title: 'Contact' }
-  ];
-
+  { url: '', title: 'Portfolio' },
+  { url: 'projects/', title: 'Projects' },
+  { url: 'contact/', title: 'Contact' }
+];
 
 
   
